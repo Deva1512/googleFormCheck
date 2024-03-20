@@ -1,24 +1,24 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Parent from './components/parent';
+import StateComponent from './components/state';
+import Usercard from './components/usercard';
+import Qrcode from './components/Qrcode/Qrcode';
+import Map from './components/Map';
+import UserForm from './components/UserForm';
+import Googleform from './components/googleform';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <StateComponent/>
+    <Parent/> */}
+    {/* <Usercard/> */}
+    {/* <Qrcode/> */}
+    {/* <Map/> */}
+    {/* <UserForm/> */}
+    <Googleform/>
+    </>
   );
 }
 

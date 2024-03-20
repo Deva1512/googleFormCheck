@@ -1,0 +1,57 @@
+*{
+    box-sizing:border-box;
+}
+
+.app-container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orange{
+    color:orangered;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid wheat;
+}
+img{
+    width:200px;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+input{
+    font-size: 20px;
+    text-transform: uppercase;
+    display:block;
+    color:orangered
+}
+
+input[type='text']{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width:100%;
+    font-size:16px;
+    border: 2px solid orangered;
+}
+button{
+    padding: 15px 25px;
+    font-size:16px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.generate{
+    background-color: orangered;
+}
+
+.generate:disabled{
+    background-color: antiquewhite;
+    cursor: not-allowed;
+}
+.download{
+    background-color: forestgreen;
+    margin-left: 8px;
+}
